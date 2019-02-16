@@ -1,6 +1,6 @@
 # TspOptimization
 
-TspOptimization is a program for solving travelling salesman problems. Travelling salesman problem (TSP) is a problem of finding a shortest route that visits n cities. Coordinates of cities are given as an input.
+TspOptimization is a program for solving travelling salesman problem. Travelling salesman problem (TSP) is a problem of finding the shortest route that visits n cities. Coordinates of cities are given as an input.
 
 This is a university project on a Software Engineering Department's fourth year course called Engineering Optimization Algorithms, at the School of Electrical Engineering from University of Belgrade.
 
@@ -8,11 +8,11 @@ Project is done in C++ programming language.
 
 # Algorithm description
 
-Program uses genetic algorithm for finding shortest path. In each generation algorithm goes to selection, reproduction and mutation phase.
+Program uses genetic algorithm for finding shortest path. In each generation algorithm goes through the phases of selection, reproduction and mutation.
 
 In selection phase, algorithm sorts individuals based on their route length.
 
-During the reproduction phase, algorithm uses top individuals to form next generation. 
+During the reproduction phase, algorithm uses top n individuals to form next generation. Number n is passed as algorithm parameter.
 
 In mutation phase, some gens may be swapped with other gens from same individual.
 
@@ -27,7 +27,7 @@ There are four parameters that user can set:
 
 # Usage
 
-Following command can be used to compile code with g++ compiler. Command should be run in the project root.
+Following command can be used to compile code with g++ compiler. Command should be run in the project root directory.
 
 ```sh
 $ g++ -o app ./headers/*.h ./source/*.cpp -O3
