@@ -48,4 +48,4 @@ First command has only 3 arguments besides program name. Input file with coordin
 
 Second command has 7 arguments besides program name. First three arguments are the same, and next four are parameters for algorithm. Mutation factor is type double, and other three algorithm parameters are type int.
 
-If first commands is used, algorithm will take default parameters (40000, 0.0001, 8000, 800).
+If first command is used, algorithm will take default parameters (40000, 0.0001, 8000, 800).
